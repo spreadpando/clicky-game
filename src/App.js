@@ -42,7 +42,6 @@ export default class App extends React.Component {
       chosen: [],
       message: "game over"
     })
-    this.shuffle(images);
   }
 
   render() {
