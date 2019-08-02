@@ -4,8 +4,8 @@ import './Scoreboard.css';
 function Scoreboard(props) {
     return (
         <div className="Scoreboard">
-            <p>score: {props.state.chosen.length}</p>
-            <p>{props.state.message}</p>
+            <p className="Score"> score: {props.state.chosen.length}</p>
+            <p className="Message">{props.state.message}</p>
         </div>
     );
 }
