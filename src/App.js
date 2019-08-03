@@ -31,16 +31,24 @@ export default class App extends React.Component {
         message: ""
       })
     }
+    if (this.state.chosen.length >= 9) {
+      this.win();
+    }
     this.shuffle(images);
     console.log(this.state.chosen);
-
-
   }
 
   gameOver = () => {
     this.setState({
       chosen: [],
       message: "game over"
+    })
+  }
+
+  win = () => {
+    this.setState({
+      chosen: [],
+      message: "! You Win !"
     })
   }
 

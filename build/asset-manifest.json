@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/clicky-game/static/css/main.3e5e0f2e.chunk.css",
+    "main.js": "/clicky-game/static/js/main.44497d4f.chunk.js",
+    "main.js.map": "/clicky-game/static/js/main.44497d4f.chunk.js.map",
+    "runtime~main.js": "/clicky-game/static/js/runtime~main.27874bd3.js",
+    "runtime~main.js.map": "/clicky-game/static/js/runtime~main.27874bd3.js.map",
+    "static/js/2.a203d266.chunk.js": "/clicky-game/static/js/2.a203d266.chunk.js",
+    "static/js/2.a203d266.chunk.js.map": "/clicky-game/static/js/2.a203d266.chunk.js.map",
+    "index.html": "/clicky-game/index.html",
+    "precache-manifest.ba6df53aee05160c8b5c1d8071b3659f.js": "/clicky-game/precache-manifest.ba6df53aee05160c8b5c1d8071b3659f.js",
+    "service-worker.js": "/clicky-game/service-worker.js",
+    "static/css/main.3e5e0f2e.chunk.css.map": "/clicky-game/static/css/main.3e5e0f2e.chunk.css.map",
+    "static/media/arya.png": "/clicky-game/static/media/arya.b6b069e2.png",
+    "static/media/barath.png": "/clicky-game/static/media/barath.cc2ef562.png",
+    "static/media/cersei.jpeg": "/clicky-game/static/media/cersei.e74166ad.jpeg",
+    "static/media/hound.jpeg": "/clicky-game/static/media/hound.faf2fa5d.jpeg",
+    "static/media/joffrey.jpeg": "/clicky-game/static/media/joffrey.868851c8.jpeg",
+    "static/media/sansa.jpeg": "/clicky-game/static/media/sansa.cd40eab1.jpeg",
+    "static/media/snow.jpeg": "/clicky-game/static/media/snow.d06026a7.jpeg",
+    "static/media/tyrion.jpeg": "/clicky-game/static/media/tyrion.7c36cfce.jpeg",
+    "static/media/wild.jpeg": "/clicky-game/static/media/wild.d28654a1.jpeg"
+  }
+}
