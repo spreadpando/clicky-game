@@ -33,10 +33,8 @@ export default class App extends React.Component {
           this.win();
         }
       })
-      console.log(this.state.chosen.length)
     }
     this.shuffle(images);
-    console.log(this.state.chosen);
   }
 
   gameOver = () => {
