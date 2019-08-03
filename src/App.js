@@ -23,16 +23,17 @@ export default class App extends React.Component {
   onClick = (e) => {
     let tgt = e.target.getAttribute('data-img');
     if (this.state.chosen.includes(tgt)) {
-      console.log('game over');
       this.gameOver();
     } else {
       this.setState({
         chosen: [...this.state.chosen, tgt],
         message: ""
+      }, () => {
+        if (this.state.chosen.length >= 9) {
+          this.win();
+        }
       })
-    }
-    if (this.state.chosen.length >= 9) {
-      this.win();
+      console.log(this.state.chosen.length)
     }
     this.shuffle(images);
     console.log(this.state.chosen);
